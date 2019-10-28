@@ -1,0 +1,14 @@
+1. find given number is odd or even
+	take input from user and print output and use following functio
+	int evenOdd (int number)
+2. find given number is power of 2
+	int isPowerOfTwo (int num)
+3. count set bit 
+	int countSetBit(int num)
+4. toggle odd bits of a number
+	int toggleOddBits( int num)
+5. set given bit
+	set at given position
+	int setBit(int num, int position)
+
+use proper headers and functions 
