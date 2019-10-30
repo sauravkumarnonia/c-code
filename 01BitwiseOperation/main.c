@@ -6,7 +6,7 @@ int main()
 	// write your code here
 	// use switch keyword to prompt the user 
 	//
-	
+
 	int num, choice, result;
 
 	printf("1. check number is even or odd. \n");
@@ -17,7 +17,7 @@ int main()
 
 	printf("Enter your choice: ");
 	scanf("%d", &choice);
-	
+
 	printf("Enter the number: ");
 	scanf("%d", &num);
 
@@ -30,18 +30,47 @@ int main()
 			else{
 				printf("%d is odd\n", num);
 			}
-		break;
+			break;
 
 		case 2:
+			result = isPowerOfTwo(num);
+			if(result == 1){
+				printf("%d is isPowerOfTwo\n", num);
+			}
+			else{
+				printf("%d is not ispoweroftwo", num);
 
-		break;
-		
-		// complete other cases 
+			}
 
-		default:
-			printf("Wrong choice \n");
-		break;
+			break;
+
+       case3:
+			result = setBit(num);
+			if(result == 1){
+				printf("%d is setbit\n", num);
+			}
+			else{
+				printf("%d is not setbit", num);
+				break;
+
+      case4:
+				result = countSetBit(num);
+				if(result == 1){
+					printf("%d is countsetbit\n" , num);
+
+				}else{
+
+					printf("%d is not countsetbit\n" , num);
+				}
+				break;		
+
+
+				// complete other cases 
+
+				default:
+				printf("Wrong choice \n");
+				break;
+			}
+
+			return 0;
 	}
-
-	return 0;
-}
