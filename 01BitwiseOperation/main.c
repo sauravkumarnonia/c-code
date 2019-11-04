@@ -44,17 +44,18 @@ int main()
 
 			break;
 
-       case3:
-			result = setBit(num);
+       case 3:
+			result = countSetBit(num);
 			if(result == 1){
 				printf("%d is setbit\n", num);
 			}
 			else{
 				printf("%d is not setbit", num);
 				break;
+			}
 
-      case4:
-				result = countSetBit(num);
+      case 4:
+				result = setBit(num);
 				if(result == 1){
 					printf("%d is countsetbit\n" , num);
 
@@ -75,4 +76,4 @@ int main()
 			return 0;
 	
 	}
-}
+
