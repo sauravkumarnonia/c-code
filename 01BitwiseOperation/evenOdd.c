@@ -1,6 +1,6 @@
 #include "bitwisehdr.h"
 
-int evenOdd (int num)
+int evenOdd (unsigned int num)
 {
 	if (num&1 == 1)
 		return 0;

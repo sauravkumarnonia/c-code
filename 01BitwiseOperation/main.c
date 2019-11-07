@@ -7,15 +7,17 @@ int main()
 	// use switch keyword to prompt the user 
 	//
 
-	int num, choice, result;
+	unsigned int num; 
+	int choice, result, pos;
 
 	printf("1. check number is even or odd. \n");
 	printf("2. check number is power of 2. \n");
 	printf("3. count the number of set bit of a number. \n");
 	printf("4. toggle odd bits of a number \n");
 	printf("5. set a bit at given position. \n");
+	printf("6. Convert into toggleBit. \n");
+	printf("Enter your choice: \n");
 
-	printf("Enter your choice: ");
 	scanf("%d", &choice);
 
 	printf("Enter the number: ");
@@ -46,29 +48,39 @@ int main()
 
        case 3:
 			result = countSetBit(num);
-			if(result == 1){
-				printf("countSetbit is %d \n", num);
-			}
+			
+							
 			
 				break;
        case 4:
-				result = setBit(num);
-					setBit(num);
-				if(result == 1){
-					printf("%d is setbit\n" , num);
-
-				}else{
-
-					printf("%d is not setbit\n" , num);
-				}
+				result = toggleOddBit(num);
+			    
+			    printf("After ToglleOddBits: %d \n", num);
 				break;		
 
+      case 5:
+				printf("Enter posotion: ");
+				scanf("%d",&pos);
+				result = setBit(num, pos);
+				printf("num after seting bit is: %d \n",num);
 
+
+				break;
+			
+	  case 6:
+				printf("Enter a pos:");
+			    scanf("%d",&pos);
+				result = toggleBit(num, pos);
+		        printf("Your Toggle Value is: %d \n", num);
+
+                break;
+				
 				// complete other cases 
 
 				default:
 				printf("Wrong choice \n");
 				break;
+
 			}
 
 			return 0;

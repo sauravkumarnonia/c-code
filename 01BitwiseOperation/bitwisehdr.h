@@ -8,10 +8,12 @@
 #include <stdio.h>
 
 // prototype for evenOdd (if a number is even or odd)
-int evenOdd (int);
-int isPowerOfTwo (int);
-int setBit (int);
-int countSetBit (int);
+int evenOdd (unsigned int);
+int isPowerOfTwo (unsigned int);
+int countSetBit (unsigned int);
+int toggleOddBit (unsigned int);
+int setBit (unsigned int, int);
+int toggleBit (unsigned int, int);
 //
 //write other functions prototype
 

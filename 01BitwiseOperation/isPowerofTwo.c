@@ -1,6 +1,6 @@
 #include "bitwisehdr.h"
 
-int isPowerOfTwo (int num)
+int isPowerOfTwo (unsigned int num)
 {
   if ((num & (num - 1)) != 0)
 	  return 0;

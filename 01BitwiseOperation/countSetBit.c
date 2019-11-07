@@ -1,5 +1,5 @@
 #include "bitwisehdr.h"
-int countSetBit(int num)
+int countSetBit(unsigned int num)
 {
 	int result =0;
    	   while (num != 0){
@@ -9,7 +9,7 @@ int countSetBit(int num)
 	num =num >> 1;
  
     }
-printf("Total SetBit is:  %d\n", result);
+printf("Total SetBit is:  %u \n", result);
 //write codes here
    //return 1 if number is countsetbit
    
