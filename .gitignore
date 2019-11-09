@@ -1,0 +1,5 @@
+/01BitwiseOperation/.gitignore
+!*.h
+!*.c
+!*.txt
+!*.gitignore
