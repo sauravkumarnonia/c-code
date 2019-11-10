@@ -10,5 +10,8 @@
 5. set given bit
 	set at given position
 	int setBit(int num, int position)
+6. count leading setbit
+7. count trailing cleared bit
+8. find maximum of two numbers
 
 use proper headers and functions 
