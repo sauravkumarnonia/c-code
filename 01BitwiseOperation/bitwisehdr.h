@@ -14,6 +14,9 @@ int countSetBit (unsigned int);
 int toggleOddBit (unsigned int);
 int setBit (unsigned int, int);
 int toggleBit (unsigned int, int);
+int MaximumNum (int, int);
+int LeadingSetBit (int);
+int ClearedBit (int);
 //
 //write other functions prototype
 
