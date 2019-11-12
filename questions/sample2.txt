@@ -1,0 +1,19 @@
+#include <stdio.h>
+// define macros if needed
+#define MAX 100
+
+int func(int num, char c)
+{
+	// write function definition
+
+}
+
+int main()
+{
+	// calling function
+	func(10, 'c');
+
+	return 0;
+}
+
+
