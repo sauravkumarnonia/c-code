@@ -8,10 +8,10 @@
 
 #include <stdio.h>
 int reverseNum(int);
-
+int num, result, rem = 0;
 int main()
 {
-	int num, result;
+	
 	printf("Enter the number: ");
 	scanf("%d", &num);
 	
@@ -22,7 +22,11 @@ int main()
 
 int reverseNum(int num)
 {
-
+	while(num!=0){
+ rem = num%10;
+ result = result*10 + rem;
+  num = num/10;
+	}
 	// write your code
-	return  reverse; // return reversed number
+	return  result; // return reversed number
 }

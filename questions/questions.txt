@@ -8,11 +8,12 @@
 2. WAP to print fibonacci series
 	void printFibonacci (int noTerms)
 
-3. WAP to reverse a number
-	int reverseNum (int num)
 
-4. WAP to find wether number is armstrong number
+3. WAP to find wether number is armstrong number
 	int isArmstrong (int num)
+
+4. WAP to reverse a number
+     int reverseNum (int num)	
 
 5. WAP to print first 10 prime numbers
 	void printPrime ()

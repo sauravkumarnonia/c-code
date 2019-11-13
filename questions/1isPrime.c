@@ -8,3 +8,29 @@
 
 
 // write your codes
+#include<stdio.h>
+int i,num;
+void isPrime(int){
+
+
+printf("Enter a number:");
+scanf("%d",&num);
+for(i=2; i<=num-1; i++)
+	if(num%i == 0)
+		break;
+if(i == num)
+
+	printf("%d is a Prime number",num);
+else
+	printf("%d is not a Prime number",num);
+
+}
+int main(){
+
+isPrime(num);
+return 0;
+}
+
+
+
+
