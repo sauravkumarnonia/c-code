@@ -1,4 +1,5 @@
 /01BitwiseOperation/.gitignore
+/questions/.gitignore
 !*.h
 !*.c
 !*.txt
