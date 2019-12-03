@@ -17,3 +17,17 @@
 
 5. WAP to print first 10 prime numbers
 	void printPrime ()
+
+6. write your own power function
+	int power (int num, int num_pow)
+	number and number power
+
+7. WAP to find wether a given year is a leap year
+	int isLeapYear (int year)
+
+8. WAP to print:
+	 "cow" if number is divisible by 3
+	 "bull" if number is divisible by 7
+	 "cow-bull" if number is divisible by both 3 and 7
+	int cowBull (int num)
+			 
