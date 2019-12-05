@@ -1,3 +1,12 @@
 1. Create an array of 10 elements and print the array
+	void printArray (int arr[], int num)
 2. Initialize array of 10 elements with 0
-3. 
+	initialize array call printArray function
+3. calculation sum of elements of array
+	int sum (int arr[], int n)
+4. find maximum element in array.
+	int max (int arr[], int n)
+5. find the second maximum element in array
+	int secondMax (int arr[], int n)
+6. print the address of each element of array
+	int printAddr (int arr[], int n)
