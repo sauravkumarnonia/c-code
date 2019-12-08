@@ -6,7 +6,7 @@ int main(){
 
 printf("Enter a Number:");
 scanf("%d",&num);
-num = arm(num);
+arm(num);
 printf("%d Is an Armstrong Number\n",num);
 return 0;
 
