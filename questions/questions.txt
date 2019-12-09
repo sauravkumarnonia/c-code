@@ -30,4 +30,26 @@
 	 "bull" if number is divisible by 7
 	 "cow-bull" if number is divisible by both 3 and 7
 	int cowBull (int num)
-			 
+			
+9. print following pattern
+	********
+	*******
+	******
+	*****
+	****
+	***
+	**
+	*
+10. print following pattern
+    *
+	**
+	***
+	****
+	*****
+11. print following pattern
+ 		*
+	   *** 
+	  *****
+	 *******
+12. WAP to swap two integers (no need of writing separate function)
+13. WAP to swap two integers without using 3rd variable (no need of writing separate function)

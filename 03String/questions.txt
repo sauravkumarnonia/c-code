@@ -1,0 +1,14 @@
+1. WAP to take input of string and print it.
+	void PrintString (void)
+2. WAP to calculate string length
+	int stringlen(char str[])
+3. WAP to reverse a string
+	void reverse (char str[])
+4. WAP to check string is palindrome
+	int isPalindrome (char str[])
+5. WAP to find character is present in string
+	int isPresent (char str[], char ch)
+6. WAP to print ascii value of 0-9
+	void printAscii (void)
+7. WAP to print ascii value of a-z
+	void printAscii (void)

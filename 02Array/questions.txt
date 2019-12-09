@@ -10,3 +10,9 @@
 	int secondMax (int arr[], int n)
 6. print the address of each element of array
 	int printAddr (int arr[], int n)
+7. create a matrix and initialise the elements and print the matrix
+	void PrintMaxtrix (int[][], int row, int col)
+8. find product of two matrix
+	void product (int mat1[][], int mat2[][], int row1, int row2, int col1, int col2)
+	or globally define row1, row2, col1, col2 and write below prototype
+		void product (int mat1[row1][col1], int mat2[row2][col2]) 
