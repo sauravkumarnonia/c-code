@@ -1,0 +1,112 @@
+1. Draw memory layout of a program with details of every section.
+2. What is difference between identifier and specifier.
+3. what is storage class specifier. Describe each of them with example program.
+4. what is scope and lifetime.
+5. What is scope and lifetime of each storage class specifier.
+6. what is difference between static variable and static function.
+7. What is endianess. write a program to determine endianess of your computer.
+	void endianess(void) | with filename 07_endianess.c
+8. write a program to change endianess of a number using bitwise operation.
+	void chngEnd(int num) | filename: 08_chngEnd.c
+9. WAP to check even odd using bitwise and without using if else.
+10. WAP to rotate bits of a number for given number of rotation(right rotate). 
+	int rotate(int num, int n) | 10_rotate.c
+11. WAP to print binary of a number.
+	void decToBin (int num) | 11_decToBin.c
+12. Create a folder stringOperation and write following functionalities:
+	a. strCopy.c (to copy string)
+	b. strCat.c (to concatenate the string)
+	c. strLen.c (to calculate length of a string)
+	d. strStr.c (to find substring in a string)
+	e. revStr.c (to reverse a string)
+	f. toLower.c ( covert string to lower case)
+	g. toUpper.c (to convert string to upper case)
+	h. squeeze.c (to squeeze given character in string)
+	i. strheader.h (contains above function prototype)
+	j. main.c (main program, use switch case to add above functionalities)
+
+13. write the output of following snippets:
+	a. int main(){
+		char c;
+		for(c= 0; c < 128; c++)
+			printf("%d", c);
+		return 0;
+	}	
+	b. int main()
+	{
+	int c = 2 ^ 3;
+	printf("%d\n", c);
+	}
+	c. int main()
+	{
+	unsigned int a = 10;
+	a = ~a;
+	printf("%d\n", a);
+	}
+	d. int main()
+	{
+	if (7 & 8)
+		printf("Honesty");
+	if ((~7 & 0x000f) == 8)
+		printf("is the best policy\n");
+	}
+
+	e. int main()
+	{
+	int a = 2;
+	if (a >> 1)
+		printf("%d\n", a);
+	}
+	f. int main() 
+	{ 
+        int num1 = 5; 
+        int num2 = 3; 
+        int num3 = 2; 
+        num1 = num2++; 
+        num2 = --num3; 
+        printf("%d %d %d", num1, num2, num3); 
+        return 0; 
+	} 
+
+	g. int main()
+	{
+	int x = 10;
+	printf("%d", x++);
+	printf("%d", x);
+	++x;
+	printf("%d", x++);
+	x++;
+	printf("%d", x);
+	return 0;
+	}
+
+	h.  int var  = 20;
+		void print(){
+		printf ("%d ", var);
+		int var;
+		var = 10;
+		printf ("%d ", var);
+	}
+
+	int main()
+	{
+		int var = 30;
+		printf("%d ", var);
+		var = 40;
+		printf("%d ", var);
+		print();
+	}
+	i. int increment (int x){
+		return x++;
+	}
+	
+	int main()
+	{
+		int x = 20;
+		printf ("%d ", x);
+		
+		printf ("%d ", increment(x));
+		printf ("%d ", increment(x++));
+		printf ("%d ", increment(++x));
+		return 0;
+	}

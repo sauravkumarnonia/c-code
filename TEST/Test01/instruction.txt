@@ -1,0 +1,5 @@
+1. create .gitignore file for this folder to ignore unnecessary files
+2. Write every questions in your copy.
+3. for programs/output, write program in cuurent folder with serial number as name
+	eg. 01_strcopy.c
+
