@@ -12,3 +12,9 @@
 	void printAscii (void)
 7. WAP to print ascii value of a-z
 	void printAscii (void)
+8. WAP to copy string
+    void strcopy(char dst[], char src[])
+9. WAP toconcatenate string
+    void strcnt(char str1[], char str2[])	
+10. WAP to copy n bytes to the string
+    void strncopy(char dst[], char src[], int n)			
