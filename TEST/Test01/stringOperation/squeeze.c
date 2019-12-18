@@ -1,5 +1,5 @@
 #include "strheader.h"
-int squeeze (int num)
+void squeeze (char str[])
 {
 
 }

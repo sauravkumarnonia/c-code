@@ -2,23 +2,27 @@
 
 int main()
 {
-int num;
-int choice, result;
-printf("01. \n");
-printf("02. \n");
-printf("03. \n");
-printf("04. \n");
-printf("05. \n");
-printf("06. \n");
-printf("07. \n");
+
+char str[100], str2[100];
+int choice, result, l, i;
+printf("01. To Reverse An String: \n");
+printf("02. To SqueezeAn string: \n");
+printf("03. To copy an string: \n");
+printf("04. To Find lenght of a String: \n");
+printf("05. To Upper case into Lower Case: \n");
+printf("06. To convert into lower to upper case: \n");
+printf("07. To strint cat: \n");
 printf("Enter Your Choice: \n");
 scanf("%d", &choice);
-printf("Enter the Number: \n");
-	scanf("%d",&num);
+printf("Enter A String: \n");
+	scanf("%s",str);
 
 	switch(choice)
 	{
 		case 1:
+		revStr(str);
+			printf("Lenght is: %s\n",str);
+			
 
 			break;
 
@@ -32,18 +36,31 @@ printf("Enter the Number: \n");
 			break;
 
 		case 4:
-			break;
+			
+
+			   
 
 		case 5:
+			toLower(str);
+			printf("In Lower Case: %s \n",str);
 
 			break;
 
 		case 6:
+				toUpper(str);
+			printf(" Upper case: %s",str);
+
 
 			break;
 
 
 		case 7:
+			
+			printf("Enter 2nd string: ");
+			scanf("%s",str2);
+			strCat(str);
+
+			printf("After concatinate: %s", str2);
 
 			break;
 
@@ -54,6 +71,6 @@ printf("Enter the Number: \n");
 			break;
 
 	}
-	return 0;
+return 0;	
 }
 

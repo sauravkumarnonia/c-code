@@ -1,6 +1,20 @@
 #include "strheader.h"
 
-int revStr (int num)
+void revStr(char str[])
 {
-return 0;
+char temp;
+int i, j, l = 0;
+for(l = 0; str[l]!='\0'; l++)
+	i++;
+i = 0;
+j = l-1;
+while(i<j)
+{
+temp = str[i];
+str[i] = str[j];
+str[j] = temp;
+i++;
+j--;
+}
+
 }

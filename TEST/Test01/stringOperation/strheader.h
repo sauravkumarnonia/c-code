@@ -4,12 +4,12 @@
 #include<stdio.h>
 //prototype of all files
 
- int squeeze (int);
- int strCopy (int);
- int strLen (int);
- int toUpper (int);
- int revStr (int);
- int strCat (int);
- int toLower (int);
+ void squeeze (char str[]);
+ void strCopy (char str[]);
+ void strLen (char str[]);
+ void toUpper (char str[]);
+ void revStr (char str[]);
+ void strCat (char str[]);
+ void toLower (char str[]);
 
 #endif

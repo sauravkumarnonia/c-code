@@ -1,5 +1,9 @@
 #include "strheader.h"
- int strLen (int num)
+ void strLen (char str[])
 {
-
+int i;
+for(i = 0; str[i]!='\0'; i++)
+{
+	printf("%d",i);
+}
 }
