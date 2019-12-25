@@ -1,14 +1,12 @@
 #include"strheader.h"
 void strCopy (char str[])
 {
-char str1[30];
-printf("Enter to copy: ");
-scanf("%s", str1);
+char str2[30];
 int i;
-for(i=0; str1[i]!='\0'; i++)
-{
-str[i]=str[i];
-}
-str[i]='\0';
+for(i=0; str[i]!='\0'; i++)
 
+str2[i]=str[i];
+
+str2[i]='\0';
+printf("After copying a string: %s\n", str2);  
 }

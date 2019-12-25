@@ -1,22 +1,26 @@
 #include<stdio.h>
+int no;
 void dectobin(){
-int i=0,j,n, arr[100];
-while(n>0)
+	int i=1, bin = 0, re;
+
+while(no!=0)
 {
-arr[i]=n/2;
-i++;
+re = no%2;
+no = no/2;
+bin = bin+(re*i);
+i = i*10;
 }
-for(j=i-1; j>=0; j--)
-{
-printf("%d", arr[j]);
+printf("The binary is %d",bin);
 }
+
 
 
  int main()
   {
-      int n,j;
-  printf("Enter DEcimal number: : ");
-  scanf("%d", &n);
+      
+  printf("Enter DEcimal number: ");
+  scanf("%d", &no);
   dectobin();
+  return 0;
  }
 

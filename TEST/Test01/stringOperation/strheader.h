@@ -9,7 +9,7 @@
  void strLen (char str[]);
  void toUpper (char str[]);
  void revStr (char str[]);
- void strCat (char str[]);
+ void strCat (char str[],char str2[]);
  void toLower (char str[]);
 
 #endif

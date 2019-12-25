@@ -32,13 +32,17 @@ printf("Enter A String: \n");
 			break;
 
 		case 3:
+			strCopy(str);
+			
 			
 			break;
 
 		case 4:
-			
+		strLen(str);
+		
 
-			   
+			break;
+				   
 
 		case 5:
 			toLower(str);
@@ -58,9 +62,11 @@ printf("Enter A String: \n");
 			
 			printf("Enter 2nd string: ");
 			scanf("%s",str2);
-			strCat(str);
 
-			printf("After concatinate: %s", str2);
+
+			strCat(str,str2);
+
+			printf("After concatinate: %s\n",str);
 
 			break;
 
